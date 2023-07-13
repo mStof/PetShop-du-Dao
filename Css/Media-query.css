@@ -1,0 +1,26 @@
+/* Media query */
+
+@media (max-width: 930px) {
+    #menu .options{
+        display: none;
+    }
+    #lateral ul.mediaQuery{
+        display: flex;
+        list-style: none;
+        font-size: x-large;
+    }
+    #lateral ul.mediaQuery li{
+        margin: auto;
+        background-color: var(--purple-color);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 0px 5px;
+    }
+    #lateral ul.mediaQuery li a{
+        text-decoration: none;
+    }
+    #lateral ul.mediaQuery li:hover{
+        box-shadow: 0px 0px 7px 2px #ae00ff;
+
+    }
+}

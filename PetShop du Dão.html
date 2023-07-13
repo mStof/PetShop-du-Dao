@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petshop Du dão</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <link rel="stylesheet" type="text/css" href="Css/lateral.css"></link>
+    <link rel="stylesheet" type="text/css" href="Css/menu.css"></link>
+    <link rel="stylesheet" type="text/css" href="Css/Corpo_Rolagens.css"></link>
+    <link rel="stylesheet" type="text/css" href="Css/filtros.css"></link>
+    <link rel="stylesheet" type="text/css" href="Css/Media-query.css"></link>
+
+  </head>
+  <body data-mode="Light">
+    <input type="checkbox" id="check">
+    <div id="lateral">
+      <ul class="mediaQuery">
+        <li><a href="">Help</a></li>
+        <li><a href="">Adoções</a></li>
+        <li><a href="">Compras</a></li>
+      </ul>
+      <ul class="normal">
+        <li><a href="">Gatos</a></li>
+        <div class="line"></div>
+
+        <li><a href="">Cachorros</a></li>
+        <div class="line"></div>
+
+        <li><a href="">Peixes</a></li>
+        <div class="line"></div>
+
+        <li><a href="">Répteis</a></li>
+        <div class="line"></div>
+
+        <li><a href="">Pássaros</a></li>
+        <div class="line"></div>
+      </ul>
+      <div class="listra_amarela">
+        <p>Modo escuro</p>
+        <div onclick='ChangeMode()' id="mode" class="mode">
+          <div id="ball" class="ball"></div>
+        </div>
+      </div>
+    </div>
+    <div id="menu">
+      <label for="check">
+      <div class="fastMenu">
+        <div class="barra"></div>
+        <div class="barra"></div>
+        <div class="barra"></div>
+      </div>
+      </label>
+      <div class="options">
+        <ul>
+          <li><a href="">Help</a></li>
+          <li><a href="">Adoções</a></li>
+          <li><a href="">Compras</a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <input type="text" value=""></input>
+        <i class="lupa"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="lupa" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg>
+      </div>
+      <div class="login">
+        <img src="Imagens/Login_Icon.png" alt="Login Icon">
+      </div>  
+    </div>
+
+    <div id="corpo_Rolagens">
+      <div class="cor_Preto"></div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="arrow_Left" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+      </svg>
+
+      <p><a id="corpo_Rolagens_texto" href="">Doações de Gatinhos</a></p>
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="arrow_Right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+      </svg>
+
+    </div>
+
+    <div id="filtros">
+
+      <img src="Imagens/Dudão.jpg" alt="Dudão_Image">
+      <h2>Dudão</h2>
+
+      <div class="historia" id="historia">Historia
+        <span onclick="clickMenu(texto1, historia, seta1)" id="seta1" class="material-symbols-outlined">expand_more</span>
+      </div>
+      <p id="texto1">Dudão Marques um ser que tinnha o sonho de dar abrigo a animaizinhos de rua e abandonados por seus donos, sem esperança de um futuro, mas com a chega de um sonho Dudão conseguiu dar esperança a aqueles que precisavam em seus piores momentos. Marques foi o simbolo de experança que todos os animais precisavam.</p>
+
+       <div class="nascimento" id="nascimento">Nascimento
+        <span onclick="clickMenu(texto2, nascimento, seta2)" id="seta2" class="material-symbols-outlined">expand_more</span>
+      </div>
+      <p id="texto2">Nascimento: 14/03/2007<br>
+      Morte: Não aconteceu</p>
+
+
+      <div class="familia" id="familia">Familia
+        <span onclick="clickMenu(texto3, familia, seta3)" id="seta3" class="material-symbols-outlined">expand_more</span>
+      </div>
+      <p id="texto3">Mãe: Guitia Marques<br>
+      Pai: Sr. Marques<br>
+      Marido: Kaleb Lima<br>
+      Filho: Mateus Stofel</p>
+
+      <div class="desconhecido" id="desconhecido">Teorias
+        <span onclick="clickMenu(texto4, desconhecido, seta4)" id="seta4" class="material-symbols-outlined">expand_more</span>
+      </div> 
+      <p id="texto4">A alguns que dizem que Dudão é imortal, por simplesmente aguentar tanto calada.
+         Outro até uns que dizem que Dudão é o novo Jesus, por tanta bondade em um único ser.</p>
+
+    </div>
+    
+   <script>
+      function clickMenu(p1, borda1, seta){
+
+        if(p1.style.display === 'none'){
+          p1.style.display = 'block';
+        
+          borda1.style.borderEndEndRadius = '0px'
+          borda1.style.borderEndStartRadius = '0px'
+
+          seta.style.transform = "rotate(90deg)";
+          
+          return console.log("Foi lido o if");
+        }
+        else if(p1.style.display === 'block'){
+          p1.style.display = 'none';
+          borda1.style.borderRadius = '5px';
+          seta.style.transform = "rotate(00deg)";
+
+          return console.log("Foi lido o else if");
+
+        }
+        else{
+          p1.style.display = 'block';
+        
+          borda1.style.borderEndEndRadius = '0px'
+          borda1.style.borderEndStartRadius = '0px'
+
+          seta.style.transform = "rotate(90deg)";
+
+          return console.log("Foi lido o else");
+        }
+      }
+   </script>
+   <script type="text/javascript" src="JavaScript/ChangeMode.js"></script>
+   <script type="text/javascript" src="JavaScript/Corpo_Rolagens.js"></script>
+
+  </body>
+</html>

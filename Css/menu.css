@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600&display=swap');
+
+:root{
+    --text-color: #1f1f1f;
+    --background: #fafafa;
+    --purple-color: #E5AFFF;
+    --purple-strong: #cb5cff;
+    --yellow-color: #fbed71;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    transition: 0.3s;
+}
+body{
+    display:flex;
+    justify-content: center;
+    font-family: 'Baloo Bhaijaan 2', Arial, cursive;
+    background-color: var(--background);
+}
+
+/* Menu do site */
+    #menu{
+    background-color: var(--yellow-color);
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 3;
+}
+
+/* 3 barrinhas */
+#menu label{
+    width: 2.75%;
+    height: 30%;
+}
+#menu label .fastMenu{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+#menu label .fastMenu .barra{
+    width: 41px;
+    height: 4px;
+    background-color: #1f1f1f;
+    transition: 0.3s; 
+    border-radius: 5px;
+}
+
+input[type="checkbox"]:checked ~ #menu label .fastMenu div:nth-child(1){
+    transform: translateY(9px)  rotate(45deg);
+
+}
+input[type="checkbox"]:checked ~ #menu label .fastMenu div:nth-child(2){
+    opacity: 0;
+}
+input[type="checkbox"]:checked ~ #menu label .fastMenu div:nth-child(3){
+    transform: translateY(-9px)  rotate(-45deg);
+
+}
+/* Menu "simples" */
+.options{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.options ul{
+    display: flex;
+    align-items: center;
+
+}
+.options ul li{
+    list-style: none;
+    font-style: none;
+    padding: 0px 20px;
+    font-size: large;
+    display: inline-block;
+    align-items: center;
+    width: calc(auto + 10px);
+    height: 45px;
+}
+
+
+/* Se for mexer no texto é aqui */
+.options ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Baloo Bhaijaan 2', Arial, cursive;
+    font-weight: 500;
+    color:#000;
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.options ul li:hover{
+    transition: 0.2s;
+    box-shadow: 0px 2px 0px 0px #000 ;
+    font-size: 35px;
+}
+/* Barra de pesquisa */
+.search{
+    width: calc(33% - 5px);
+    height: 40px;
+    background-color: var(--background);
+    border: 1px solid var(--background);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.search input{
+    background-color:var(--background);
+    color: var(--text-color);
+    margin-left: 10px;
+    border-color: transparent;
+    width: 90%;
+    height: 90%;
+    font-size: 20px;
+    outline: 0;
+}
+.lupa{
+    cursor: pointer;
+    color: var(--text-color);
+}
+/* Login */
+.login{
+
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

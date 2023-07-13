@@ -1,0 +1,56 @@
+/* Corpo_Rolagens */
+#corpo_Rolagens{
+    height: 35%;
+    width: calc(100% - 70px);
+    position: absolute;
+    top: calc(10% + 20px);
+    background-image: url(../Imagens/Cats.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:10%;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+
+.cor_Preto{
+    background-color: #00000050;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* Texto do blg */
+#corpo_Rolagens p a, #corpo_Rolagens p{
+    color: #fafafa;
+    font-size: 44px;
+    position: relative;
+
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+#corpo_Rolagens p{
+    position: absolute;
+}
+#corpo_Rolagens p:hover{
+    transform: translate(0px, -15px);
+}
+
+/* As setinhas  */
+#corpo_Rolagens .arrow_Left, #corpo_Rolagens .arrow_Right{    
+    position: absolute;
+    left: 30px;
+    align-self: center;
+    cursor: pointer;
+
+
+}
+#corpo_Rolagens .arrow_Right{
+    left: auto;
+    right: 30px;
+}
+#corpo_Rolagens .arrow_Right:hover, #corpo_Rolagens .arrow_Left:hover{
+    transform: scale(1.2);
+}
