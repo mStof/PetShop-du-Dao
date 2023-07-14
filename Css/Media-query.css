@@ -1,9 +1,7 @@
 /* Media query */
 
 @media (max-width: 930px) {
-    body{
-
-    }
+    
     #menu .options{
         display: none;
     }
@@ -33,6 +31,8 @@
     #filtros div{
         font-size: medium;
         padding-left: 5%;
-
+    }
+    #filtros p[id*="texto"]{
+        width: calc(90% - 10% - 10px);
     }
 }
