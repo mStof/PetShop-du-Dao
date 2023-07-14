@@ -23,4 +23,9 @@
         box-shadow: 0px 0px 7px 2px #ae00ff;
 
     }
+    #filtros div{
+        font-size: medium;
+        padding-left: 5%;
+
+    }
 }

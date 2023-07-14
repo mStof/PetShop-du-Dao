@@ -10,20 +10,19 @@
 #filtros{
     width: 18.3%;
     height: auto;
-    position: absolute;
-    top: calc(45% + 40px);
+    position: relative;
     left: 35px;
     margin-bottom: 20px;
     border-radius: 20px;
     background-color: #fbed71;
+    align-self: flex-start;
     display:flex;
     flex-direction: column;
     align-items: center;
     text-align: start;
 }
 #filtros img{
-    width: 100px;
-    height: 100px;
+    max-width: 36.55%;
     border: 2px solid var(--text-color);
     border-radius: 50%;
     margin-top: 10px;
@@ -40,22 +39,22 @@
 }
 #filtros div{
     height: 24px;
-    width: 90%;
+    width: calc(90% - 15%);
     border-radius: 5px;
     background: var(--purple-strong);
     color: var(--text-color);
-    display: block;
-    position: relative;
-    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 15%;
     font-weight: 500;
     font-size: large;
     margin-bottom: 20px;
-    
 }
+
 #filtros div > .material-symbols-outlined{
-    position: absolute;
+    position: relative;
     right: 10%;
-    top: 10%;
     cursor: pointer;
     transition: 0.2s;
     user-select: none;
