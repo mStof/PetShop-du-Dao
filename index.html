@@ -16,7 +16,7 @@
   </head>
   <body data-mode="Light">
     <input type="checkbox" id="check">
-    <div id="lateral">
+    <aside id="lateral">
       <ul class="mediaQuery">
         <li><a href="">Help</a></li>
         <li><a href="">Adoções</a></li>
@@ -44,7 +44,7 @@
           <div id="ball" class="ball"></div>
         </div>
       </div>
-    </div>
+    </aside>
     <div id="menu">
       <label for="check">
       <div class="fastMenu">
@@ -53,13 +53,13 @@
         <div class="barra"></div>
       </div>
       </label>
-      <div class="options">
+      <nav class="options">
         <ul>
           <li><a href="">Help</a></li>
           <li><a href="">Adoções</a></li>
           <li><a href="">Compras</a></li>
         </ul>
-      </div>
+      </nav>
       <div class="search">
         <input type="text" value=""></input>
         <i class="lupa"></i>
@@ -67,9 +67,9 @@
           <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
         </svg>
       </div>
-      <div class="login">
+      <figure class="login">
         <img src="Imagens/Icon.png" alt="Login Icon">
-      </div>  
+      </figure>  
     </div>
 
     <div id="corpo_Rolagens">
@@ -86,7 +86,7 @@
 
     </div>
 
-    <div id="filtros">
+    <section id="filtros">
 
       <img src="Imagens/Dudão.jpg" alt="Dudão_Image">
       <h2>Dudão</h2>
@@ -100,7 +100,7 @@
         <span onclick="clickMenu(texto2, nascimento, seta2)" id="seta2" class="material-symbols-outlined">expand_more</span>
       </div>
       <p id="texto2">
-      Nascimento: 14/03/2007<br>
+      Nascimento: <time datetime="2007-03-14">14/03/2007</time><br>
       Morte: Não aconteceu</p>
 
 
@@ -119,7 +119,7 @@
       <p id="texto4">A alguns que dizem que Dudão é imortal, por simplesmente aguentar tanto calada.
          Outro até uns que dizem que Dudão é o novo Jesus, por tanta bondade em um único ser.</p>
 
-    </div>
+    </section>
     
    <script>
       function clickMenu(p1, borda1, seta){
