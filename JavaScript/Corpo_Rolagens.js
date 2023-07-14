@@ -19,41 +19,31 @@ function changeImage(value) {
   }
     switch (number) {
       case 0:
-        corpo_Rolagens.style.background = "url(Imagens/Cats.jpg) center no-repeat";
-        corpo_Rolagens.style.backgroundSize = "cover";
+        corpo_Rolagens.style.backgroundImage = "url(Imagens/Cats.jpg)";
         corpo_Rolagens_texto.textContent = "Doações de Gatinhos";
         corpo_Rolagens_texto.href = " ";
         break;
       case 1:
       case -4:
-        corpo_Rolagens.style.background = "url(Imagens/Dogs.jpg) no-repeat";
-        corpo_Rolagens.style.backgroundSize = "cover";
-        corpo_Rolagens.style.backgroundPosition = "0px -480px";
-        
+        corpo_Rolagens.style.backgroundImage = "url(Imagens/Dogs.jpg)";
         corpo_Rolagens_texto.textContent = "Doações de Cachorros";
         corpo_Rolagens_texto.href = " ";
         break;
       case 2:
       case -3:
-        corpo_Rolagens.style.background = "url(Imagens/Fishs.jpg) no-repeat";
-        corpo_Rolagens.style.backgroundSize = "cover";
-        corpo_Rolagens.style.backgroundPosition = "0px -280px";
+        corpo_Rolagens.style.backgroundImage = "url(Imagens/Fish.jpg)";
         corpo_Rolagens_texto.textContent = "Venda de Peixes";
         corpo_Rolagens_texto.href = " ";
         break;
       case 3:
       case -2:
-        corpo_Rolagens.style.background = "url(Imagens/Repteis.jpg) no-repeat";
-        corpo_Rolagens.style.backgroundSize = "cover";
-        corpo_Rolagens.style.backgroundPosition = "0px -280px";
+        corpo_Rolagens.style.backgroundImage = "url(Imagens/Repteis.jpg)";
         corpo_Rolagens_texto.textContent = "Doações de Répteis";
         corpo_Rolagens_texto.href = " ";
         break;
       case 4:
       case -1:
-        corpo_Rolagens.style.background = "url(Imagens/bird.jpg) no-repeat";
-        corpo_Rolagens.style.backgroundSize = "cover";
-        corpo_Rolagens.style.backgroundPosition = "0px -280px";
+        corpo_Rolagens.style.backgroundImage = "url(Imagens/bird.jpg)";
         corpo_Rolagens_texto.textContent = "Doações de Pássaros";
         corpo_Rolagens_texto.href = " ";
         break;

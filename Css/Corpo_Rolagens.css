@@ -1,13 +1,13 @@
 /* Corpo_Rolagens */
 #corpo_Rolagens{
     height: 250.25px;
-    width: calc(100% - 70px);
+    width: 90%;
     position: relative;
     top: 91.5px;
     background-image: url(../Imagens/Cats.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:10%;
+    background-position: center;
     border-radius: 20px;
     display: flex;
     align-items: flex-end;
