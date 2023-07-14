@@ -1,5 +1,5 @@
 /* Media query */
-
+/* Telas de table pra baixo */
 @media (max-width: 930px) {
     
     #menu .options{
@@ -34,5 +34,18 @@
     }
     #filtros p[id*="texto"]{
         width: calc(90% - 10% - 10px);
+    }
+}
+
+/* Telas de celular pra baixo */
+@media (max-width: 570px) {
+    #corpo_Rolagens p a, #corpo_Rolagens p{
+        font-size: 32px;
+    }
+    #corpo_Rolagens .arrow_Left, #corpo_Rolagens .arrow_Right{
+        width: 27px;
+    }
+    #corpo_Rolagens{
+        height: 200.25px;
     }
 }
