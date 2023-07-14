@@ -43,6 +43,7 @@
     position: absolute;
     left: 30px;
     align-self: center;
+    color: rgb(196, 196, 196);
     cursor: pointer;
 
 
@@ -53,4 +54,5 @@
 }
 #corpo_Rolagens .arrow_Right:hover, #corpo_Rolagens .arrow_Left:hover{
     transform: scale(1.2);
+    color: rgb(253, 252, 252);
 }
