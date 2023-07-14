@@ -9,17 +9,14 @@
 
 #filtros{
     width: 273.59px;
-    height: auto;
-    position: relative;
-    left: 35px;
-    margin-bottom: 20px;
     border-radius: 20px;
     background-color: #fbed71;
+    margin-left: 35px;
+    margin-top: 111px;
     align-self: flex-start;
     display:flex;
     flex-direction: column;
     align-items: center;
-    text-align: start;
 }
 #filtros img{
     max-width: 36.55%;

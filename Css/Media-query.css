@@ -1,6 +1,9 @@
 /* Media query */
 
 @media (max-width: 930px) {
+    body{
+
+    }
     #menu .options{
         display: none;
     }
@@ -22,6 +25,10 @@
     #lateral ul.mediaQuery li:hover{
         box-shadow: 0px 0px 7px 2px #ae00ff;
 
+    }
+    #filtros{
+        align-self: center;
+        margin-left: 0px;
     }
     #filtros div{
         font-size: medium;
