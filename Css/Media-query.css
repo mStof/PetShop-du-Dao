@@ -1,6 +1,19 @@
 /* Media query */
 /* Telas de table pra baixo */
 @media (max-width: 930px) {
+    #menu{
+        justify-content: space-between;
+        width: calc(100% - 50px);
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #menu label{
+        width: 41px;
+    }
+    #menu .search{
+        width: calc(55% - 5px);
+        padding-right: 10px;
+    }
     
     #menu .options{
         display: none;

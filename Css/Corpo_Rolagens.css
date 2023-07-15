@@ -27,7 +27,6 @@
     color: #fafafa;
     font-size: 44px;
     position: relative;
-
     margin-bottom: 15px;
     text-decoration: none;
 }
@@ -45,8 +44,6 @@
     align-self: center;
     color: rgb(196, 196, 196);
     cursor: pointer;
-
-
 }
 #corpo_Rolagens .arrow_Right{
     left: auto;
