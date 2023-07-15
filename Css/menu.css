@@ -120,6 +120,7 @@ input[type="checkbox"]:checked ~ #menu label .fastMenu div:nth-child(3){
     display: flex;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
 }
 .search input{
     background-color:var(--background);

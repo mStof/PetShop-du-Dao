@@ -16,6 +16,8 @@ function ChangeMode(){
         document.documentElement.style.setProperty("--purple-color", "#D376FF");
         document.documentElement.style.setProperty("--purple-strong", "#C959FF");
         document.documentElement.style.setProperty("--yellow-color", "#FFED46");
+        document.documentElement.style.setProperty("--footer-color", "#101010")
+        document.querySelector('#menu .search').style.boxShadow = 'rgba(255, 255, 255, 0.51) 0px 0px 7px 2px'
     }
     else{
         ball.style.transform = 'translateX(0px)';
@@ -32,5 +34,7 @@ function ChangeMode(){
         document.documentElement.style.setProperty("--purple-color", "#E5AFFF");
         document.documentElement.style.setProperty("--purple-strong", "#cb5cff");
         document.documentElement.style.setProperty("--yellow-color", "#fbed71");
+        document.documentElement.style.setProperty("--footer-color", "#d0d0d0")
+        document.querySelector('#menu .search').style.boxShadow = 'rgba(0, 0, 0, 0.16) 0px 1px 4px'
     }
   }
