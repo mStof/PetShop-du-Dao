@@ -45,7 +45,7 @@ input[type="checkbox"]:checked ~ #lateral{
     position: absolute;
     top: 90%;
     justify-content: space-around;
-    align-items: cneter;
+    align-items: center;
 }
 #lateral .listra_amarela:last-child p{
     font-size: 20px;
